@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Extension Demo",
+  "description": "This extension will demonstrate some lesser-known Chrome Extension APIs",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "assets/logo.PNG",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "default-src 'self'; img-src https://*; child-src 'none';",
+  "omnibox": {
+    "keyword": "demo"
+  },
+  "icons": {
+    "16": "assets/sixteen.png"
+  },
+  "commands": {
+    "toggle-feature-foo": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Toggle feature foo"
+    }
+  },
+  "devtools_page": "devtools.html",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": ["activeTab", "tts"],
+  "optional_permissions": []
+}

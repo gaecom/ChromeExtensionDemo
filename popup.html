@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrome Extension Demo</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h2>How to demo each Chrome extension API</h2>
+
+    <h4>01. Chrome omnibox API</h4>
+    <p>
+      Type <i>demo</i> in the address bar and press <b>space</b> or <b>tab</b>
+    </p>
+
+    <h4>02. Chrome Commands API</h4>
+    <p>Press <b>Ctrl+Shift+Y</b> in Windows or <b>Cmd+Shift+Y</b> in Mac</p>
+
+    <h4>03. Chrome Devtools API</h4>
+    <p>
+      Right click on the web page and click on <b>inspect element</b>. You will
+      see a new panel with the name <i>Demo panel</i> has been added.
+    </p>
+
+    <h4>04. Chrome ttsEngine API</h4>
+    <p>Type in a sentence and press <code>start text-to-speech</code> button</p>
+    <form>
+        <input type="text" placeholder="type something..."/>
+        <button>Start text-to-speech</button>
+    </form>
+
+    <h4>05. Chrome permissions API</h4>
+    <p>
+      Click on the following button to see the extension requesting permission
+      to open the camera.<b>If you can remember, this permission was not requested at the time of
+      installation.</b>
+    </p>
+    <button id="permission">Give me permission to open the camera</button>
+  </body>
+</html>
