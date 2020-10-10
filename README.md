@@ -1,6 +1,5 @@
 # Chrome Extension Demo
 A simple Chrome extension to demonstrate some lesser-known Chrome extension APIs.  
-Read more: https://medium.com/@pavindulakshan/add-cool-features-to-your-chrome-extensions-with-these-apis-711350ab00c4
 
 ## How to install
 
