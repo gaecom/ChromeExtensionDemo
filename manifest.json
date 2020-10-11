@@ -29,5 +29,5 @@
     "scripts": ["background.js"]
   },
   "permissions": ["activeTab", "tts"],
-  "optional_permissions": []
+  "optional_permissions": ["tabs", "http://www.google.com/" ]
 }

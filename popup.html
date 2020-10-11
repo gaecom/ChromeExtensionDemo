@@ -24,16 +24,16 @@
     <h4>04. Chrome ttsEngine API</h4>
     <p>Type in a sentence and press <code>start text-to-speech</code> button</p>
     <form>
-        <input type="text" placeholder="type something..."/>
-        <button>Start text-to-speech</button>
+        <input type="text" id="tts" placeholder="type something..."/>
+        <button type="submit" id="speak">Start text-to-speech</button>
     </form>
 
     <h4>05. Chrome permissions API</h4>
     <p>
-      Click on the following button to see the extension requesting permission
-      to open the camera.<b>If you can remember, this permission was not requested at the time of
-      installation.</b>
+      Go to https://google.com and click on the following button to see the extension requesting permission
+      to access the web page content.
     </p>
-    <button id="permission">Give me permission to open the camera</button>
+    <button id="permission">Give me permission</button>
+    <script src="./popup.js"></script>
   </body>
 </html>
